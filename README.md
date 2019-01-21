@@ -12,12 +12,12 @@ Options:
 
 When multi-thread is enabled, it will create a process for each iteration immediately.  Be careful with this option.
 
-Installation:
+## Installation:
 ```
 npm install -g @gatewayapps/nloop
 ```
 
-Example:
+## Example:
 ```
 > nloop -n 5 -- echo "Hello, world!"
 Hello, world!
